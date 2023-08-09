@@ -1,0 +1,54 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f56q71-dmx-light-show",
+        "version": " ",
+        "displayName": "",
+        "projectName": "pic16f56q71-dmx-light-show",
+        "shortDescription": "An audio-reactive light show driven by the Q71's analog and DMX capabilities.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.1.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.41.0"
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC16F56Q71",
+                "versionRange": "*"
+            }
+        },
+        "author": "Josh Booth",
+        "peripherals": [],
+        "keywords": [],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
