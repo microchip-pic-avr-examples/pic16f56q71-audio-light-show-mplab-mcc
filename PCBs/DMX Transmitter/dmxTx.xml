@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\C70636\Git Repo\dmx\PCBs\DMX Transmitter\dmxTx.kicad_sch</source>
+    <date>8/28/2023 8:48:47 AM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DMX Demo Transmitter</title>
+        <company>Microchip</company>
+        <rev>1</rev>
+        <date>2023-07-21</date>
+        <source>dmxTx.kicad_sch</source>
+        <comment number="1" value="Josh Booth"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>buck_converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C17">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97947b90-d6cc-45c0-9395-b3df2eab490e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f620a70b-ea79-49b7-9aca-db6be7344410</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>445f6286-4f3b-4fc9-97b1-30c255295186</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>33p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kemet/C0603C330K4HAC7867/7946792</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kemet/C0603C330K4HAC7867/7946792"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57484e80-3552-4782-b2bd-f9ee34a8299b</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1af7cda9-99ad-4490-9380-45cbaf0015db</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dadc8c0f-9b4f-4150-948c-31dd6fbe9143</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69f517d6-4e3a-4b51-abf2-df5907e950d4</tstamps>
+    </comp>
+    <comp ref="CON1">
+      <value>~</value>
+      <footprint>E5J88-00LJG2-L:E5J88-00LJG2-L</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="dmx_components_library" part="E5J88-00LJG2-L" description=""/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="Misc"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee0eb9a8-6b07-4619-b29b-cbc892b48d42</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>+48V</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68cc28cb-bec5-47bf-b73b-a658afda6e1f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>+5V</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>348a4878-73bd-4a2a-8933-892eb815b51c</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>High Amp</value>
+      <footprint>0679L9100-05:0679L9100-05</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/bel-fuse-inc/0679L9100-05/5844042</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Package" value="Misc"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/bel-fuse-inc/0679L9100-05/5844042"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd83132f-3d69-470b-8688-693879903c24</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>Low Amp</value>
+      <footprint>0679L9100-05:0679L9100-05</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/bel-fuse-inc/0679L1000-05/5844030</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Package" value="Misc"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/bel-fuse-inc/0679L1000-05/5844030"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d4c228e-fdac-45ba-b670-55fbcccf4be3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ee40a92-7dda-4fff-bf3b-38053ef96ede</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d838b72-1f60-4f82-95f3-d9f55610b4f2</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39c58050-c19b-4c72-877f-ceda2c92302e</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c0ec62c-87f4-4c75-bc0f-89819dd24d8d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/adam-tech/PH1-07-UA/9830505</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/adam-tech/PH1-07-UA/9830505"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfdb2aee-1559-42f3-9006-a1964298b70f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Jack-DC</value>
+      <footprint>PJ-063AH:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/cui-devices/PJ-063AH/2161208?s=N4IgTCBcDaIAoCkC0AGAbAZgIIAkQF0BfIA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/cui-devices/PJ-063AH/2161208?s=N4IgTCBcDaIAoCkC0AGAbAZgIIAkQF0BfIA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aba8566-e964-4ed2-9690-7a25adc2cddb</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>STX-3000</value>
+      <footprint>STX-3000_KYC</footprint>
+      <datasheet>STX-3000</datasheet>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="STX-3000" part="STX-3000" description=""/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_keywords" value="STX-3000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fdb2b96-0166-4f3b-97b6-16768a791083</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>STX-3000</value>
+      <footprint>STX-3000_KYC</footprint>
+      <datasheet>STX-3000</datasheet>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="STX-3000" part="STX-3000" description=""/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_keywords" value="STX-3000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0883891-245e-404f-8f14-14f9e76f970e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>STX-3000</value>
+      <footprint>STX-3000_KYC</footprint>
+      <datasheet>STX-3000</datasheet>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="STX-3000" part="STX-3000" description=""/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995?s=N4IgTCBcDaIMoBUAaBaAzABiyAugXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_keywords" value="STX-3000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25b5d3b0-618d-405b-8536-2062ad0d105b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2184939-c9f0-4790-b538-db1072a6882c</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8be08d9-cbb5-4af3-a9e7-f68af7cdb9bf</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f2be77c-42d6-471c-bb1f-ebc6ece1a7c5</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24414037-82f8-4577-9163-a55e61f71a5c</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>790</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0402FR-07787RL/5281093</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-07787RL/5281093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>777de13c-d067-4813-9de0-8756bff0fd17</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-2AEB223X/1706037</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0402"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-2AEB223X/1706037"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>357e6b1e-c37d-4fc8-8f3d-8fc04bf2d7ce</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RT0402BRD07200KL/5926115</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RT0402BRD07200KL/5926115"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4478358f-d967-4688-b706-b9364e506c14</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT_MSM</value>
+      <footprint>100AWDP1T2B4M2QE:100AWDP1T2B4M2QE</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/e-switch/100AWSP1T2B4M2QE/1803039</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT_MSM" description="Switch, single pole double throw, center OFF position"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/e-switch/100AWSP1T2B4M2QE/1803039"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw, center OFF position"/>
+      <property name="ki_keywords" value="switch spdt single-pole double-throw ON-OFF-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b70bfc2-cb75-4344-9279-4a45f6d18ac5</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MCLR_SW</value>
+      <footprint>EVQ-P7A01P:EVQ-P7A01P</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Package" value="Misc"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f31663c4-a7f5-4164-8330-346e75e9dde3</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>RC1</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>696c8afa-63ee-42ec-9390-13dd03d4a76d</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>+48V</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7ead0e5-95cd-405b-9446-13bc7ace96ec</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>+5V</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>985a3dce-4d5a-4dfc-a051-b1d1c895387e</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c9cd353-b209-4e88-be64-905fe0b3d90a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PIC18F56Q71-I/PT</value>
+      <footprint>TQFP48_PT_MCH</footprint>
+      <datasheet>PIC18F56Q71-I/PT</datasheet>
+      <fields>
+        <field name="Package">TQFP48</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/microchip-technology/PIC18F56Q71-I-PT/17631044</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="PIC18F56Q71-I-PT" part="PIC18F56Q71-I_PT" description=""/>
+      <property name="Package" value="TQFP48"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F56Q71-I-PT/17631044"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_keywords" value="PIC18F56Q71-I/PT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c491544f-c603-48bb-8ad6-227fc3d5acd6 79a95e23-a907-40ae-a627-7ef670e698b4</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SP485CN-L</value>
+      <footprint>NSOIC-8</footprint>
+      <datasheet>SP485CN-L</datasheet>
+      <fields>
+        <field name="Package">SOIC-8</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L/2411099</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="SP485CN-L" part="SP485CN-L" description=""/>
+      <property name="Package" value="SOIC-8"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L/2411099"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_keywords" value="SP485CN-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d0e90da-9c74-405b-ae98-4a0aca8abf54</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MSGEQ7</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://mix-sig.com/images/datasheets/MSGEQ7.pdf</datasheet>
+      <fields>
+        <field name="Package">DIP-8</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.sparkfun.com/products/10468</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Audio" part="MSGEQ7" description="Seven Band Graphic Equalizer, DIP-8/SOIC-8"/>
+      <property name="Package" value="DIP-8"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.sparkfun.com/products/10468"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxTx.kicad_sch"/>
+      <property name="ki_description" value="Seven Band Graphic Equalizer, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="equalizer filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de024331-2fd1-4106-97f8-fe2bc635b5a4</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>73d16ab7-1580-4bab-bc1d-72c6a3a815d2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4700pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kemet/C0603C472K5RACAUTO/3314891?s=N4IgTCBcDaIMwE4EFoBsAOBrkEZkDkAREAXQF8g</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kemet/C0603C472K5RACAUTO/3314891?s=N4IgTCBcDaIMwE4EFoBsAOBrkEZkDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>fcf664c2-4ce2-4da4-af66-837b1b5cddf1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GCM21BC72A105KE36L/6606065?s=N4IgTCBcDaICwE4AMBaAjHOBmAbCsKAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM21BC72A105KE36L/6606065?s=N4IgTCBcDaICwE4AMBaAjHOBmAbCsKAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>56dbe569-317f-41c9-9ba9-15978b442b1c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>49633899-515d-4c71-862b-c0cfb18c7fe3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>030173da-6851-42cf-9cf5-c100e7bf713f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>7cf4eb45-7fe8-49e9-ad8f-a10cc3a38de5</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>5e26cab9-8572-48ce-b71e-5b9ec77565c3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>3f9c0450-a7fe-4717-a856-87507531b1b5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>b4f790e5-eb1a-4d7f-acac-9b3ff2713382</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>77888326-f2c8-45f2-9b82-9bad71fcbbe7</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>cbf2a028-4a52-4ab1-afb4-b031d2e64257</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>3d742431-11fe-49b4-962b-17284dace658</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>d15a5ca2-1657-4cd8-b3a8-f3d333e20b2c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>da294e03-cf68-46f0-b9a0-dad7eac5cc45</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>4179b82c-8a17-41df-866d-133b243eac5b</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/vishay-dale/ILHB0805ER121V/5168396</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/vishay-dale/ILHB0805ER121V/5168396"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>fbbd8cad-8da7-4328-9892-e90a1c429316</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>XGL6060:XGL6060</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/coilcraft/XGL6060-332MEC/15794210?s=N4IgTCBcDaIBoHEAyA2ADOgtAZmxAugL5A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/coilcraft/XGL6060-332MEC/15794210?s=N4IgTCBcDaIBoHEAyA2ADOgtAZmxAugL5A"/>
+      <property name="Package" value="Misc"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>56f80231-9afd-45b6-a22c-0573adb649a9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2RKF3003X/1746185?s=N4IgTCBcDaIAoGYAMSDSAZAKgJQLQDkAREAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2RKF3003X/1746185?s=N4IgTCBcDaIAoGYAMSDSAZAKgJQLQDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>087f6d09-bda3-4717-a5fc-92a81ddc25a2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>398262cb-ddb7-4cd1-85ab-6dce98c5aa83</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>eede8461-335d-44fb-a0f4-f514494da31b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>dad0b45f-d910-4d7d-9805-2af1490fc307</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>e4e6a9b5-3205-47e7-aafa-23a33291209c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/AC0603FR-1010KL/13694182?s=N4IgTCBcDaIIIGEAMA2JBmAYgJQLQEYlCBpAGQAIBPAQwHMBTAexAF0BfIA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/AC0603FR-1010KL/13694182?s=N4IgTCBcDaIIIGEAMA2JBmAYgJQLQEYlCBpAGQAIBPAQwHMBTAexAF0BfIA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>609721e2-4ebb-437d-b589-1329906bd332</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>d750bd05-24a7-44f0-9211-a1514f37359a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>1b5ea7ee-fcb6-4994-9fe2-b9399284309d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1.37k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K37L/726860?s=N4IgTCBcDaIMwEYEFoEDo4HYDSAJASgMIAqyAcgCIgC6AvkA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K37L/726860?s=N4IgTCBcDaIMwEYEFoEDo4HYDSAJASgMIAqyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>99110386-928b-4760-8d63-a6a6308559a3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3.01k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K01L/727121?s=N4IgTCBcDaIMwEYEFo4DoAMCDSAJASgCr7IByAIiALoC%2BQA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K01L/727121?s=N4IgTCBcDaIMwEYEFo4DoAMCDSAJASgCr7IByAIiALoC%2BQA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>918dffda-5270-4cc1-8355-6215b23300ec</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>40afef20-489d-48f2-88b4-ad780fa80bad</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>46db0a60-bc40-4697-a3b7-495ca07d8e0f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1R00/1760547?s=N4IgTCBcDaIEoFkDCAxADADjQVhQFQEY400k8BaAOQBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1R00/1760547?s=N4IgTCBcDaIEoFkDCAxADADjQVhQFQEY400k8BaAOQBEQBdAXyA"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>b29b76bd-4cbb-40d5-b4c0-aa84c6f555f5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724K9L/727080?s=N4IgTCBcDaIMwEYEFowBYB0BOA0gCQCUBhAFWQDkAREAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724K9L/727080?s=N4IgTCBcDaIMwEYEFowBYB0BOA0gCQCUBhAFWQDkAREAXQF8g"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>9f7cf86f-0e67-4a4d-ac69-4892a11c50aa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MIC28517T-E/PHA</value>
+      <footprint>VQFN32_6X6_3EP_PHA_MCH</footprint>
+      <datasheet>MIC28517T-E/PHA</datasheet>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.microchip.com/en-us/product/mic28517</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="MIC28517T-E-PHA" part="MIC28517T-E_PHA" description=""/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.microchip.com/en-us/product/mic28517"/>
+      <property name="Sheetname" value="Buck Converter"/>
+      <property name="Sheetfile" value="buck_converter.kicad_sch"/>
+      <property name="ki_keywords" value="MIC28517T-E/PHA"/>
+      <sheetpath names="/Buck Converter/" tstamps="/8b167c2c-16f1-4768-8951-062311d4ea09/"/>
+      <tstamps>ef73ee4c-571b-475e-965f-ed43495df658 463c6c36-a621-4e5a-9be1-598e20e4133f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Audio" part="MSGEQ7">
+      <description>Seven Band Graphic Equalizer, DIP-8/SOIC-8</description>
+      <docs>http://mix-sig.com/images/datasheets/MSGEQ7.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MSGEQ7</field>
+        <field name="Datasheet">http://mix-sig.com/images/datasheets/MSGEQ7.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="STROBE" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+        <pin num="6" name="GND" type="power_out"/>
+        <pin num="7" name="RESET" type="input"/>
+        <pin num="8" name="CKIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Socket">
+      <description>Generic connector, single row, 01x07, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Jack-DC">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack-DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC28517T-E-PHA" part="MIC28517T-E_PHA">
+      <docs>MIC28517T-E/PHA</docs>
+      <footprints>
+        <fp>VQFN32_6X6_3EP_PHA_MCH</fp>
+        <fp>VQFN32_6X6_3EP_PHA_MCH-M</fp>
+        <fp>VQFN32_6X6_3EP_PHA_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC28517T-E/PHA</field>
+        <field name="Footprint">VQFN32_6X6_3EP_PHA_MCH</field>
+        <field name="Datasheet">MIC28517T-E/PHA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ILIM" type="input"/>
+        <pin num="2" name="PGND" type="power_out"/>
+        <pin num="3" name="SW" type="output"/>
+        <pin num="4" name="BST" type="output"/>
+        <pin num="5" name="PVIN" type="power_in"/>
+        <pin num="6" name="PVIN" type="power_in"/>
+        <pin num="7" name="PVIN" type="power_in"/>
+        <pin num="8" name="PVIN" type="power_in"/>
+        <pin num="9" name="PVIN" type="power_in"/>
+        <pin num="10" name="PVIN" type="power_in"/>
+        <pin num="11" name="PVIN" type="power_in"/>
+        <pin num="12" name="SW" type="output"/>
+        <pin num="13" name="SW" type="output"/>
+        <pin num="14" name="SW" type="output"/>
+        <pin num="15" name="SW" type="output"/>
+        <pin num="16" name="PGND" type="power_out"/>
+        <pin num="17" name="PGND" type="power_out"/>
+        <pin num="18" name="PGND" type="power_out"/>
+        <pin num="19" name="PGND" type="power_out"/>
+        <pin num="20" name="SW" type="output"/>
+        <pin num="21" name="PVDD" type="power_in"/>
+        <pin num="22" name="PGND" type="power_out"/>
+        <pin num="23" name="EXTVDD" type="power_in"/>
+        <pin num="24" name="EN" type="input"/>
+        <pin num="25" name="FREQ" type="input"/>
+        <pin num="26" name="MODE" type="input"/>
+        <pin num="27" name="FB" type="input"/>
+        <pin num="28" name="AGND" type="power_out"/>
+        <pin num="29" name="PGND" type="power_out"/>
+        <pin num="30" name="VDD" type="power_in"/>
+        <pin num="31" name="SVIN" type="power_in"/>
+        <pin num="32" name="PG" type="output"/>
+        <pin num="33" name="PGND" type="power_out"/>
+        <pin num="EP5" name="PVIN" type="power_in"/>
+        <pin num="EP12" name="SW" type="output"/>
+        <pin num="EP19" name="PGND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PIC18F56Q71-I-PT" part="PIC18F56Q71-I_PT">
+      <docs>PIC18F56Q71-I/PT</docs>
+      <footprints>
+        <fp>TQFP48_PT_MCH</fp>
+        <fp>TQFP48_PT_MCH-M</fp>
+        <fp>TQFP48_PT_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC18F56Q71-I/PT</field>
+        <field name="Footprint">TQFP48_PT_MCH</field>
+        <field name="Datasheet">PIC18F56Q71-I/PT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RC7" type="bidirectional"/>
+        <pin num="2" name="RD4" type="bidirectional"/>
+        <pin num="3" name="RD5" type="bidirectional"/>
+        <pin num="4" name="RD6" type="bidirectional"/>
+        <pin num="5" name="RD7" type="bidirectional"/>
+        <pin num="6" name="VSS" type="power_out"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="RB0" type="bidirectional"/>
+        <pin num="9" name="RB1" type="bidirectional"/>
+        <pin num="10" name="RB2" type="bidirectional"/>
+        <pin num="11" name="RB3" type="bidirectional"/>
+        <pin num="12" name="RF4" type="bidirectional"/>
+        <pin num="13" name="RF5" type="bidirectional"/>
+        <pin num="14" name="RF6" type="bidirectional"/>
+        <pin num="15" name="RF7" type="bidirectional"/>
+        <pin num="16" name="RB4" type="bidirectional"/>
+        <pin num="17" name="RB5" type="bidirectional"/>
+        <pin num="18" name="RB6/ICSPCLK" type="bidirectional"/>
+        <pin num="19" name="RB7/ICSPDAT" type="bidirectional"/>
+        <pin num="20" name="RE3/*MCLR/VPP" type="bidirectional"/>
+        <pin num="21" name="RA0" type="bidirectional"/>
+        <pin num="22" name="RA1" type="bidirectional"/>
+        <pin num="23" name="RA2" type="bidirectional"/>
+        <pin num="24" name="RA3" type="bidirectional"/>
+        <pin num="25" name="RA4" type="bidirectional"/>
+        <pin num="26" name="RA5" type="bidirectional"/>
+        <pin num="27" name="RE0" type="bidirectional"/>
+        <pin num="28" name="RE1" type="bidirectional"/>
+        <pin num="29" name="RE2" type="bidirectional"/>
+        <pin num="30" name="VDD" type="power_in"/>
+        <pin num="31" name="VSS" type="power_out"/>
+        <pin num="32" name="RA7" type="bidirectional"/>
+        <pin num="33" name="RA6" type="bidirectional"/>
+        <pin num="34" name="RC0" type="bidirectional"/>
+        <pin num="35" name="RC1" type="bidirectional"/>
+        <pin num="36" name="RF0" type="bidirectional"/>
+        <pin num="37" name="RF1" type="bidirectional"/>
+        <pin num="38" name="RF2" type="bidirectional"/>
+        <pin num="39" name="RF3" type="bidirectional"/>
+        <pin num="40" name="RC2" type="bidirectional"/>
+        <pin num="41" name="RC3" type="bidirectional"/>
+        <pin num="42" name="RD0" type="bidirectional"/>
+        <pin num="43" name="RD1" type="bidirectional"/>
+        <pin num="44" name="RD2" type="bidirectional"/>
+        <pin num="45" name="RD3" type="bidirectional"/>
+        <pin num="46" name="RC4" type="bidirectional"/>
+        <pin num="47" name="RC5" type="bidirectional"/>
+        <pin num="48" name="RC6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SP485CN-L" part="SP485CN-L">
+      <docs>SP485CN-L</docs>
+      <footprints>
+        <fp>NSOIC-8</fp>
+        <fp>NSOIC-8-M</fp>
+        <fp>NSOIC-8-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP485CN-L</field>
+        <field name="Footprint">NSOIC-8</field>
+        <field name="Datasheet">SP485CN-L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="*RE" type="output"/>
+        <pin num="3" name="DE" type="output"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="STX-3000" part="STX-3000">
+      <docs>STX-3000</docs>
+      <footprints>
+        <fp>STX-3000_KYC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STX-3000</field>
+        <field name="Footprint">STX-3000_KYC</field>
+        <field name="Datasheet">STX-3000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT_MSM">
+      <description>Switch, single pole double throw, center OFF position</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_MSM</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmx_components_library" part="E5J88-00LJG2-L">
+      <fields>
+        <field name="Reference">CON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+        <pin num="7" name="7" type="bidirectional"/>
+        <pin num="8" name="8" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Audio">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Audio.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MIC28517T-E-PHA">
+      <uri>C:\Users\C70636\Git Repo\dmx\PCBs\DMX Transmitter/symbols/ul_MIC28517T-E-PHA/KiCADv6/2023-07-24_23-39-29.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PIC18F56Q71-I-PT">
+      <uri>C:\Users\C70636\Git Repo\dmx\PCBs\DMX Transmitter/symbols/ul_PIC18F56Q71-I-PT/KiCADv6/2023-07-20_22-46-57.kicad_sym</uri>
+    </library>
+    <library logical="SP485CN-L">
+      <uri>C:\Users\C70636\Git Repo\dmx\PCBs\DMX Transmitter/symbols/ul_SP485CN-L/KiCADv6/2023-07-20_22-17-03.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="*RE" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="DE" pintype="output"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+48V">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="+48V_Hi_Amp">
+      <node ref="CON1" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="CON1" pin="7" pinfunction="7" pintype="bidirectional"/>
+      <node ref="CON1" pin="8" pinfunction="8" pintype="bidirectional"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="AGND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="CON1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="CON1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="CON1" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="17" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="18" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="19" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="2" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="22" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="23" pinfunction="EXTVDD" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="33" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="EP19" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="RC7" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="RF4" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="RF5" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="RF6" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="RF7" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="RB5" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="RD4" pintype="bidirectional"/>
+      <node ref="U2" pin="23" pinfunction="RA2" pintype="bidirectional"/>
+      <node ref="U2" pin="24" pinfunction="RA3" pintype="bidirectional"/>
+      <node ref="U2" pin="25" pinfunction="RA4" pintype="bidirectional"/>
+      <node ref="U2" pin="26" pinfunction="RA5" pintype="bidirectional"/>
+      <node ref="U2" pin="28" pinfunction="RE1" pintype="bidirectional"/>
+      <node ref="U2" pin="29" pinfunction="RE2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="RD5" pintype="bidirectional"/>
+      <node ref="U2" pin="31" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U2" pin="32" pinfunction="RA7" pintype="bidirectional"/>
+      <node ref="U2" pin="33" pinfunction="RA6" pintype="bidirectional"/>
+      <node ref="U2" pin="36" pinfunction="RF0" pintype="bidirectional"/>
+      <node ref="U2" pin="37" pinfunction="RF1" pintype="bidirectional"/>
+      <node ref="U2" pin="38" pinfunction="RF2" pintype="bidirectional"/>
+      <node ref="U2" pin="39" pinfunction="RF3" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="RD6" pintype="bidirectional"/>
+      <node ref="U2" pin="40" pinfunction="RC2" pintype="bidirectional"/>
+      <node ref="U2" pin="41" pinfunction="RC3" pintype="bidirectional"/>
+      <node ref="U2" pin="42" pinfunction="RD0" pintype="bidirectional"/>
+      <node ref="U2" pin="43" pinfunction="RD1" pintype="bidirectional"/>
+      <node ref="U2" pin="44" pinfunction="RD2" pintype="bidirectional"/>
+      <node ref="U2" pin="45" pinfunction="RD3" pintype="bidirectional"/>
+      <node ref="U2" pin="46" pinfunction="RC4" pintype="bidirectional"/>
+      <node ref="U2" pin="47" pinfunction="RC5" pintype="bidirectional"/>
+      <node ref="U2" pin="48" pinfunction="RC6" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="RD7" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="RB0" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="RB1" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="RO" pintype="output"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="U4" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="5" name="AN_OUT">
+      <node ref="U2" pin="27" pinfunction="RE0" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="6" name="AUDIO_IN">
+      <node ref="J6" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="D+">
+      <node ref="CON1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="D-">
+      <node ref="CON1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="DMX OUT">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="RC0" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="10" name="FB">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="11" name="ICSPCLK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="RB6/ICSPCLK" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="ICSPDAT">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="RB7/ICSPDAT" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="ILIM">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="14" name="MCLR">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="RE3/*MCLR/VPP" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="MODE1">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="RA0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="MODE2">
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="RA1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(U1A-BST)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="BST" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(U1A-EN)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U1A-FREQ)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="FREQ" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U1A-PG)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PG" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(U1B-AGND)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="AGND" pintype="power_out"/>
+    </net>
+    <net code="29" name="Net-(U1B-PVDD)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PVDD" pintype="power_in"/>
+    </net>
+    <net code="30" name="Net-(U1B-SVIN)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="SVIN" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(U2A-RC1)">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="35" pinfunction="RC1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(U4-CKIN)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="CKIN" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U4-GND)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="34" name="Net-(U4-IN)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="35" name="RESET">
+      <node ref="U2" pin="10" pinfunction="RB2" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="36" name="STROBE">
+      <node ref="U2" pin="11" pinfunction="RB3" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="STROBE" pintype="input"/>
+    </net>
+    <net code="37" name="SW">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="13" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="14" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="15" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="20" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="3" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="EP12" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="38" name="U1TX">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="RB4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="MODE" pintype="input"/>
+      <node ref="U1" pin="30" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="40" name="VIN">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U1" pin="EP5" pinfunction="PVIN" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

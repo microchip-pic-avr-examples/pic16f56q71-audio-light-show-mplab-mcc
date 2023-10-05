@@ -1,0 +1,4 @@
+{"summary": "MisraMacro", "data": [{"name": "PWM1_INITIALIZE_DUTY_VALUE", "used": false, "file": "mcc_generated_files/pwm/src/ccp1.c", "line": 44, "column": 0}, {"name": "PWM1_H", "used": false, "file": "mcc_generated_files/pwm/ccp1.h", "line": 34, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "PWM1_Initialize", "file": "mcc_generated_files/pwm/src/ccp1.c", "line": 50, "column": 6, "decl": false}, {"name": "PWM1_LoadDutyValue", "file": "mcc_generated_files/pwm/src/ccp1.c", "line": 67, "column": 6, "decl": false}, {"name": "PWM1_OutputStatusGet", "file": "mcc_generated_files/pwm/src/ccp1.c", "line": 85, "column": 6, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": [{"name": "dutyValue", "file": "mcc_generated_files/pwm/src/ccp1.c", "line": 67, "column": 34}]}

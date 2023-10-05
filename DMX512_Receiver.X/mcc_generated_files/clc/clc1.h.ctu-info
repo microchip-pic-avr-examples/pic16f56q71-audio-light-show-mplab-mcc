@@ -1,0 +1,4 @@
+{"summary": "MisraMacro", "data": [{"name": "CLC1_H", "used": false, "file": "mcc_generated_files/clc/clc1.h", "line": 34, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "CLC1_Initialize", "file": "mcc_generated_files/clc/clc1.h", "line": 47, "column": 6, "decl": true}, {"name": "CLC1_OutputStatusGet", "file": "mcc_generated_files/clc/clc1.h", "line": 57, "column": 6, "decl": true}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": []}

@@ -1,0 +1,4 @@
+{"summary": "MisraMacro", "data": [{"name": "CONFIG_BITS_H", "used": false, "file": "mcc_generated_files/system/config_bits.h", "line": 35, "column": 0}, {"name": "CLOCK_H", "used": false, "file": "mcc_generated_files/system/clock.h", "line": 36, "column": 0}, {"name": "_XTAL_FREQ", "used": false, "file": "mcc_generated_files/system/clock.h", "line": 39, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "CLOCK_Initialize", "file": "mcc_generated_files/system/clock.h", "line": 48, "column": 6, "decl": true}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": []}

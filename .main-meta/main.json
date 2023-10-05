@@ -3,10 +3,10 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic16f56q71-dmx-light-show",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f56q71-audio-light-show-mplab-mcc",
         "version": " ",
         "displayName": "",
-        "projectName": "pic16f56q71-dmx-light-show",
+        "projectName": "pic16f56q71-audio-light-show-mplab-mcc",
         "shortDescription": "An audio-reactive light show driven by the Q71's analog and DMX capabilities.",
         "ide": {
             "name": "MPLAB X",

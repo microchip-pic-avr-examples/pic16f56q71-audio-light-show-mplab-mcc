@@ -1,0 +1,42 @@
+Id,Designator,Footprint,Quantity,Designation,Supplier and ref,Column1
+1,SW2,EVQ-P7A01P,1,MCLR_SW,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447,
+2,"C10,C9",R_0402_1005Metric,2,0.1uF,https://www.digikey.com/en/products/detail/murata-electronics/GRM155R62A104KE14D/5027543,"100V, X5R "
+3,J1,PinHeader_1x05_P2.54mm_Vertical,1,Conn_01x05_Socket,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300511121/4846831,Have in Chandler Lab
+4,U1,TQFP48_PT_MCH,1,PIC18F56Q71-I/PT,https://www.digikey.com/en/products/detail/microchip-technology/PIC18F56Q71-I-PT/17631044,
+5,"H3,H1,H2,H4",MountingHole_3.2mm_M3,4,MountingHole,N/A,
+6,C6,R_1206_3216Metric,1,1uF,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B105KCHSNNE/3888405,"100V, X7R "
+7,C1,R_0805_2012Metric,1,4.7uF,https://www.digikey.com/en/products/detail/tdk-corporation/C2012X5R2A475K125AC/14642033,"100V, X5R "
+8,"R1,R2",R_0402_1005Metric,2,2.2R,https://www.digikey.com/en/products/detail/yageo/RC0402FR-072R2L/1037048,1% 1/16W
+9,"R11,R3",R_0402_1005Metric,2,200k,https://www.digikey.com/en/products/detail/yageo/RT0402BRD07200KL/5926115,"±0.1%, 1/16W"
+10,"C5,C3,C2,C4",R_1206_3216Metric,4,2.2uF,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B225KCHSNNE/3888796,"±10% 100V, X7R"
+11,R9,R_0402_1005Metric,1,2.21k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-072K21L/726554,"±1%, 1/16W"
+12,"CON1,CON2",E5J88-00LJG2-L,2,~,https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312,
+13,"R8,R6",R_0402_1005Metric,2,10k,https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030,"±1%, 1/16W"
+14,"C7,C14,C8",R_0402_1005Metric,3,.1uF,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KA5NNNC/5961204,"10%, 25V"
+15,"C12,C13",R_0402_1005Metric,2,47u,https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61A476ME15K/4905528,"20%, 10V"
+16,R7,R_0402_1005Metric,1,25k,https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E2502BST1/4341871,"0.1%, 1/20W"
+17,U2,VQFN32_6X6_3EP_PHA_MCH,1,MIC28517T-E/PHA,https://www.microchip.com/en-us/product/mic28517#purchase-from-store,
+18,SW1,RM100772BCB,1,~,https://www.digikey.com/en/products/detail/c-k/RM100772BCB/6052003?s=N4IgTCBcDaIEoFkCMAGFB2dYBCBhbIAugL5A,
+19,L1,7447709006,1,6.8u,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7447709006/1638645?s=N4IgTCBcDaIOwBYFzgBgJytQNhAXQF8g,8.4A
+20,B1,gnd_bridge,1,~,N/A,
+21,C11,R_0603_1608Metric,1,4.7n,https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2C0G1H472J080AA/2672805,
+22,R4,R_0402_1005Metric,1,100k,https://www.digikey.com/en/products/detail/susumu/RR0510P-104-D/432443,
+23,U3,NSOIC-8,1,SP485CN-L,https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L/2411099,
+24,R10,R_0402_1005Metric,1,1.37k,https://www.digikey.com/en/products/detail/yageo/RC0402FR-071K37L/5280895,
+25,J2,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Socket,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825,
+26,R5,R_0402_1005Metric,1,10K?,https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030,
+27,TP2,TestPoint_Pad_D1.0mm,1,SCK,N/A,
+28,TP1,TestPoint_Pad_D1.0mm,1,PWM,N/A,
+29,TP6,TestPoint_Pad_D1.0mm,1,DMX DI,N/A,
+30,TP7,TestPoint_Pad_D1.0mm,1,GND,N/A,
+31,D2,LED_0603_1608Metric,1,+5V,https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230,
+32,R12,R_0402_1005Metric,1,790,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07787RL/5281093,
+33,TP3,TestPoint_Pad_D1.0mm,1,SDO,N/A,
+34,D1,LED_0603_1608Metric,1,+48V,https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839,
+35,TP10,TestPoint_Pad_D1.0mm,1,RC0,N/A,
+36,R15,R_0402_1005Metric,1,47,https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747RL/2827566,
+38,"R13, R14",R_0402_1005Metric,1,1k,https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398,
+39,TP4,TestPoint_Pad_D1.0mm,1,U1TX,N/A,
+40,TP8,TestPoint_Pad_D1.0mm,1,+5V,N/A,
+41,TP9,TestPoint_Pad_D1.0mm,1,RB2,N/A,
+42,TP5,TestPoint_Pad_D1.0mm,1,DOUT,N/A,

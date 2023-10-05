@@ -1,0 +1,3 @@
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "DMX_Initialize", "file": "dmx.h", "line": 1, "column": 6, "decl": true}, {"name": "dmxReceive", "file": "dmx.h", "line": 2, "column": 6, "decl": true}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": []}

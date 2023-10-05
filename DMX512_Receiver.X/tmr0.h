@@ -1,0 +1,1 @@
+void TMR0_Initialize(void); // Initializes TMR0

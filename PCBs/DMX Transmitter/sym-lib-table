@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIC18F56Q71-I-PT")(type "KiCad")(uri "${KIPRJMOD}/symbols/ul_PIC18F56Q71-I-PT/KiCADv6/2023-07-20_22-46-57.kicad_sym")(options "")(descr ""))
+  (lib (name "SP485CN-L")(type "KiCad")(uri "${KIPRJMOD}/symbols/ul_SP485CN-L/KiCADv6/2023-07-20_22-17-03.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC28517T-E-PHA")(type "KiCad")(uri "${KIPRJMOD}/symbols/ul_MIC28517T-E-PHA/KiCADv6/2023-07-24_23-39-29.kicad_sym")(options "")(descr ""))
+  (lib (name "R")(type "KiCad")(uri "${KIPRJMOD}/symbols/r.kicad_sym")(options "")(descr ""))
+)

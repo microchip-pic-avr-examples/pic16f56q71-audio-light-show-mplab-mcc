@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\C70636\Git Repo\pic16f56q71-dmx-light-show\PCBs\DMX Receiver\dmxRx.kicad_sch</source>
+    <date>9/23/2023 5:06:03 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DMX Demo Receiver</title>
+        <company>Microchip</company>
+        <rev>1</rev>
+        <date>2023-07-21</date>
+        <source>dmxRx.kicad_sch</source>
+        <comment number="1" value="Josh Booth"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dmx_rx_power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C17">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">10V</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bca01c5-9689-40e7-9f66-31d7d76d991a</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">10V</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c140520f-b553-4944-9984-130f9aa576f2</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">10V</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe9b216-eb51-443f-bd26-37af260055ac</tstamps>
+    </comp>
+    <comp ref="CON1">
+      <value>~</value>
+      <footprint>E5J88-00LJG2-L:E5J88-00LJG2-L</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312</field>
+      </fields>
+      <libsource lib="dmx_components_library" part="E5J88-00LJG2-L" description=""/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3521e96e-d472-4a46-9a80-a4942545e052</tstamps>
+    </comp>
+    <comp ref="CON2">
+      <value>~</value>
+      <footprint>E5J88-00LJG2-L:E5J88-00LJG2-L</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312</field>
+      </fields>
+      <libsource lib="dmx_components_library" part="E5J88-00LJG2-L" description=""/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a04dd0c0-4624-4249-8cad-9d22f15d04a4</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>+48V</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/liteon/LTST-C191KSKT/386839"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24ccb9d4-27ce-47da-b1e1-23f315e83893</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>+5V</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50232a8e-0abc-4a37-9a79-9671e5fc7ec9</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a0c1d58-2068-49f6-9aac-2db812bc0790</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>825ebdc3-dfc2-48e9-ac3d-345ad36e7cdf</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb097aa1-a05f-4372-80df-3e979d9ac6e3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c3a5111-e01d-491e-a5c3-bb4a6e7e7230</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f656490-cf3c-4e4f-9abc-5962ab84890c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48f4fe0e-50fa-4e19-98c7-789978f7fba8</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce453d35-b5c9-4767-95ed-be7eec50e746</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300511121/4846831</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Socket" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300511121/4846831"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1279fd8d-4f3e-49f1-ba4d-3ac72e7cce64</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2238e111-7d03-4a34-89b5-abffd6b9c514</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/AC0402FR-0710KL/5895030"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb674652-cafb-4c40-8820-d67d62c59fda</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>30k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">5%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0805JR-0730KL/728310</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0805JR-0730KL/728310"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="5%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d8998c4-751c-452e-98b5-47597e3c444b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071K4L/727487</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071K4L/727487"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa320c84-7b54-4f4a-a672-dbe2a9255d44</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/susumu/RR0510P-102-D/432398"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d239f6e-b44f-4a78-875e-6e355d6b28cd</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>790</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0402FR-07787RL/5281093</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-07787RL/5281093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45501e73-978a-4dcb-8cbb-bf12e771adde</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x03</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/cts-electrocomponents/210-3MS/2503780</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/cts-electrocomponents/210-3MS/2503780"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>651c03a8-d82e-44ab-8436-7bc15039bff1</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MCLR_SW</value>
+      <footprint>EVQ-P7A01P:EVQ-P7A01P</footprint>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d00e2cdb-b0b0-4819-8ab6-d1659ed37b14</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>PWM</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ce8386f-81d1-4bb1-9b6f-915c2d29dac8</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>SCK</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d9b36b7-5a2e-46e0-8f84-595b8882512b</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SDO</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c29fa26-f33f-4825-ac1f-bf97bc5e5709</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>U1TX</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd5d0c97-47e3-4c26-a3c8-8c1c327d8294</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>DOUT</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a6e78c1-caed-4393-a84a-3572a4693138</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>DMX DI</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b281b8d5-5879-42ff-bd4e-a1a38c8dfba2</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>863fae9f-265c-4526-893b-b9f907f45276</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>+5V</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e0ad76-327e-40e0-b6ab-15e6a4fd0ea8</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>RC0</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Vendor">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9998212f-f4fe-4778-985f-6cc45565fc4e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PIC18F56Q71-I/PT</value>
+      <footprint>TQFP48_PT_MCH</footprint>
+      <datasheet>PIC18F56Q71-I/PT</datasheet>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/microchip-technology/PIC18F56Q71-I-PT/17631044</field>
+      </fields>
+      <libsource lib="PIC18F56Q71-I-PT" part="PIC18F56Q71-I_PT" description=""/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F56Q71-I-PT/17631044"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_keywords" value="PIC18F56Q71-I/PT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea110c96-8717-4621-9245-b55f4d52c008 4b1133c9-2dc0-4e37-b567-f0517d5ea14b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SP485CN-L</value>
+      <footprint>NSOIC-8</footprint>
+      <datasheet>SP485CN-L</datasheet>
+      <fields>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L/2411099</field>
+      </fields>
+      <libsource lib="SP485CN-L" part="SP485CN-L" description=""/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L/2411099"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dmxRx.kicad_sch"/>
+      <property name="ki_keywords" value="SP485CN-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c49229-955e-4f80-a93f-0cb91b0e3ac7</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>fd5301b0-4566-4f90-b66c-1dffdad9b7fe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4700pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/kemet/C0603C472K5RACAUTO/3314891?s=N4IgTCBcDaIMwE4EFoBsAOBrkEZkDkAREAXQF8g</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/kemet/C0603C472K5RACAUTO/3314891?s=N4IgTCBcDaIMwE4EFoBsAOBrkEZkDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>736aef64-8138-4c0c-8117-abb66a9882ed</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GCM21BC72A105KE36L/6606065?s=N4IgTCBcDaICwE4AMBaAjHOBmAbCsKAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM21BC72A105KE36L/6606065?s=N4IgTCBcDaICwE4AMBaAjHOBmAbCsKAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>8c514d9c-fa54-4929-a92d-e069315619c6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>7a25acd2-de8d-4192-929b-9ca46d691651</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM188C71A475KE11D/4905309?s=N4IgTCBcDaICwE4AMBaAjGhCzpQOQBEQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>e83236bb-5ebf-4ee9-b863-fe9059ae4079</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>26480f7c-a368-4116-9b5a-5746483494c6</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>2f14050f-f73a-461f-953a-a20355c09431</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1210</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1210"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC72A106KE05L/7319245?s=N4IgTCBcDaICwE4AMBaAjANjBj6UDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>5b874bfb-caf5-4afa-a4be-c74acb8d652b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>12f98980-a429-47d8-83d7-44e3d08d329d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>db9b7b14-9476-41a9-9f6a-efbefbc20976</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>188802c1-a771-47f4-8669-cd4cc9492a54</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">1206</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="1206"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3889868"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>b0862ed1-eb37-4e70-9df7-650a67000517</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>8807e4a4-3fa6-4385-9bf5-24753e85f009</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="16V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C226ME44L/4905510?s=N4IgTCBcDaIBwEYC0BxASgWTAgQgYUTzDADYMBRAFgBkQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>4ff58efb-d580-4a84-80ae-f5e8ed6de756</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012206120/11479578?s=N4IgTCBcDaIOwGYwFoAcqCsAGAjGMWAbHlgCoBKyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>2945c16f-2bac-4b5f-9238-d92e52177024</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/vishay-dale/ILHB0805ER121V/5168396</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/vishay-dale/ILHB0805ER121V/5168396"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>dba49720-8080-49f2-a51d-522d8751be74</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>XGL6060:XGL6060</footprint>
+      <fields>
+        <field name="Package">Misc</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/coilcraft/XGL6060-332MEC/15794210?s=N4IgTCBcDaIBoHEAyA2ADOgtAZmxAugL5A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/coilcraft/XGL6060-332MEC/15794210?s=N4IgTCBcDaIBoHEAyA2ADOgtAZmxAugL5A"/>
+      <property name="Package" value="Misc"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>e201a723-839c-472e-9081-5804f6f3fa1c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2RKF3003X/1746185?s=N4IgTCBcDaIAoGYAMSDSAZAKgJQLQDkAREAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2RKF3003X/1746185?s=N4IgTCBcDaIAoGYAMSDSAZAKgJQLQDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>50d6072e-4487-4944-bca0-489dd18dd82a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>798d7737-a65e-48c3-aacd-f4532692c7d8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>a77e09c1-2235-4f38-9af9-661b425d6a8f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>cbae4ca8-8f61-4e09-ad8d-cdb28941228c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1ETTP1003F/9844156?s=N4IgTCBcDaIGxwAwFoBKBpA7AZgBIEYBRAFWIAV9FFsAxEAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>1877f5b3-a708-419c-ba1f-fd1918962b2a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/AC0603FR-1010KL/13694182?s=N4IgTCBcDaIIIGEAMA2JBmAYgJQLQEYlCBpAGQAIBPAQwHMBTAexAF0BfIA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/AC0603FR-1010KL/13694182?s=N4IgTCBcDaIIIGEAMA2JBmAYgJQLQEYlCBpAGQAIBPAQwHMBTAexAF0BfIA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>d63ba577-2a3e-4dfd-a31b-3b9568f0cb63</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>5e590edd-7593-416c-89ae-d7942540ab96</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>8dd2b556-205f-4e9e-84ba-953780f0179d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1.37k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K37L/726860?s=N4IgTCBcDaIMwEYEFoEDo4HYDSAJASgMIAqyAcgCIgC6AvkA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K37L/726860?s=N4IgTCBcDaIMwEYEFoEDo4HYDSAJASgMIAqyAcgCIgC6AvkA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>ccdc1998-733e-42e2-a6a0-e8b4624fa9cf</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3.01k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K01L/727121?s=N4IgTCBcDaIMwEYEFo4DoAMCDSAJASgCr7IByAIiALoC%2BQA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K01L/727121?s=N4IgTCBcDaIMwEYEFo4DoAMCDSAJASgCr7IByAIiALoC%2BQA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>0bda36d7-996a-4ac5-8110-d85e2bfe1c5e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0402"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-2GE0R00X/146727?s=N4IgTCBcDaIAoAYB0CBSBhAKgWgHIBEQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>66c939e6-f5c7-45de-8b56-90988f931d00</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1R00/2240072?s=N4IgTCBcDaIEoDkDCAFADANjQZgGIBUARARjjTSXwFoFCQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>ad41463e-affe-4552-8996-03411cbf9f01</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1R00/1760547?s=N4IgTCBcDaIEoFkDCAxADADjQVhQFQEY400k8BaAOQBEQBdAXyA</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="0805"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1R00/1760547?s=N4IgTCBcDaIEoFkDCAxADADjQVhQFQEY400k8BaAOQBEQBdAXyA"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>edcff8c0-d4e2-49ce-84a2-69c2eb6a3acc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="Tolerance">1%</field>
+        <field name="Vendor">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724K9L/727080?s=N4IgTCBcDaIMwEYEFowBYB0BOA0gCQCUBhAFWQDkAREAXQF8g</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Package" value="0603"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Vendor" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724K9L/727080?s=N4IgTCBcDaIMwEYEFowBYB0BOA0gCQCUBhAFWQDkAREAXQF8g"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>17a95538-e90f-4c93-be8d-de339103e64a</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>VIN</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>3d1a1b7a-ee03-42a0-b405-2a6a50fae8f5</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>SW</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>cfc6dcc6-a64b-40f0-b15b-3548b38395fa</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>VDD</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>a088b59a-617e-4a39-96bd-5e1145cc9b6c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC28517T-E/PHA</value>
+      <footprint>VQFN32_6X6_3EP_PHA_MCH</footprint>
+      <datasheet>MIC28517T-E/PHA</datasheet>
+      <fields>
+        <field name="Package">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Vendor">https://www.microchip.com/en-us/product/mic28517</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="MIC28517T-E-PHA" part="MIC28517T-E_PHA" description=""/>
+      <property name="Package" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Vendor" value="https://www.microchip.com/en-us/product/mic28517"/>
+      <property name="Sheetname" value="DMX RX Power"/>
+      <property name="Sheetfile" value="dmx_rx_power.kicad_sch"/>
+      <property name="ki_keywords" value="MIC28517T-E/PHA"/>
+      <sheetpath names="/DMX RX Power/" tstamps="/7a0107bf-f54b-4e6d-8df3-e8c0f2fde071/"/>
+      <tstamps>e7bf8d81-de31-427c-af76-fcdc65a3f87e 1baae930-1f6b-4f93-96fe-f0cce393d342</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Socket">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC28517T-E-PHA" part="MIC28517T-E_PHA">
+      <docs>MIC28517T-E/PHA</docs>
+      <footprints>
+        <fp>VQFN32_6X6_3EP_PHA_MCH</fp>
+        <fp>VQFN32_6X6_3EP_PHA_MCH-M</fp>
+        <fp>VQFN32_6X6_3EP_PHA_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC28517T-E/PHA</field>
+        <field name="Footprint">VQFN32_6X6_3EP_PHA_MCH</field>
+        <field name="Datasheet">MIC28517T-E/PHA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ILIM" type="input"/>
+        <pin num="2" name="PGND" type="power_out"/>
+        <pin num="3" name="SW" type="output"/>
+        <pin num="4" name="BST" type="output"/>
+        <pin num="5" name="PVIN" type="power_in"/>
+        <pin num="6" name="PVIN" type="power_in"/>
+        <pin num="7" name="PVIN" type="power_in"/>
+        <pin num="8" name="PVIN" type="power_in"/>
+        <pin num="9" name="PVIN" type="power_in"/>
+        <pin num="10" name="PVIN" type="power_in"/>
+        <pin num="11" name="PVIN" type="power_in"/>
+        <pin num="12" name="SW" type="output"/>
+        <pin num="13" name="SW" type="output"/>
+        <pin num="14" name="SW" type="output"/>
+        <pin num="15" name="SW" type="output"/>
+        <pin num="16" name="PGND" type="power_out"/>
+        <pin num="17" name="PGND" type="power_out"/>
+        <pin num="18" name="PGND" type="power_out"/>
+        <pin num="19" name="PGND" type="power_out"/>
+        <pin num="20" name="SW" type="output"/>
+        <pin num="21" name="PVDD" type="power_in"/>
+        <pin num="22" name="PGND" type="power_out"/>
+        <pin num="23" name="EXTVDD" type="power_in"/>
+        <pin num="24" name="EN" type="input"/>
+        <pin num="25" name="FREQ" type="input"/>
+        <pin num="26" name="MODE" type="input"/>
+        <pin num="27" name="FB" type="input"/>
+        <pin num="28" name="AGND" type="power_out"/>
+        <pin num="29" name="PGND" type="power_out"/>
+        <pin num="30" name="VDD" type="power_in"/>
+        <pin num="31" name="SVIN" type="power_in"/>
+        <pin num="32" name="PG" type="output"/>
+        <pin num="33" name="PGND" type="power_out"/>
+        <pin num="EP5" name="PVIN" type="power_in"/>
+        <pin num="EP12" name="SW" type="output"/>
+        <pin num="EP19" name="PGND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PIC18F56Q71-I-PT" part="PIC18F56Q71-I_PT">
+      <docs>PIC18F56Q71-I/PT</docs>
+      <footprints>
+        <fp>TQFP48_PT_MCH</fp>
+        <fp>TQFP48_PT_MCH-M</fp>
+        <fp>TQFP48_PT_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC18F56Q71-I/PT</field>
+        <field name="Footprint">TQFP48_PT_MCH</field>
+        <field name="Datasheet">PIC18F56Q71-I/PT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RC7" type="bidirectional"/>
+        <pin num="2" name="RD4" type="bidirectional"/>
+        <pin num="3" name="RD5" type="bidirectional"/>
+        <pin num="4" name="RD6" type="bidirectional"/>
+        <pin num="5" name="RD7" type="bidirectional"/>
+        <pin num="6" name="VSS" type="power_out"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="RB0" type="bidirectional"/>
+        <pin num="9" name="RB1" type="bidirectional"/>
+        <pin num="10" name="RB2" type="bidirectional"/>
+        <pin num="11" name="RB3" type="bidirectional"/>
+        <pin num="12" name="RF4" type="bidirectional"/>
+        <pin num="13" name="RF5" type="bidirectional"/>
+        <pin num="14" name="RF6" type="bidirectional"/>
+        <pin num="15" name="RF7" type="bidirectional"/>
+        <pin num="16" name="RB4" type="bidirectional"/>
+        <pin num="17" name="RB5" type="bidirectional"/>
+        <pin num="18" name="RB6/ICSPCLK" type="bidirectional"/>
+        <pin num="19" name="RB7/ICSPDAT" type="bidirectional"/>
+        <pin num="20" name="RE3/*MCLR/VPP" type="bidirectional"/>
+        <pin num="21" name="RA0" type="bidirectional"/>
+        <pin num="22" name="RA1" type="bidirectional"/>
+        <pin num="23" name="RA2" type="bidirectional"/>
+        <pin num="24" name="RA3" type="bidirectional"/>
+        <pin num="25" name="RA4" type="bidirectional"/>
+        <pin num="26" name="RA5" type="bidirectional"/>
+        <pin num="27" name="RE0" type="bidirectional"/>
+        <pin num="28" name="RE1" type="bidirectional"/>
+        <pin num="29" name="RE2" type="bidirectional"/>
+        <pin num="30" name="VDD" type="power_in"/>
+        <pin num="31" name="VSS" type="power_out"/>
+        <pin num="32" name="RA7" type="bidirectional"/>
+        <pin num="33" name="RA6" type="bidirectional"/>
+        <pin num="34" name="RC0" type="bidirectional"/>
+        <pin num="35" name="RC1" type="bidirectional"/>
+        <pin num="36" name="RF0" type="bidirectional"/>
+        <pin num="37" name="RF1" type="bidirectional"/>
+        <pin num="38" name="RF2" type="bidirectional"/>
+        <pin num="39" name="RF3" type="bidirectional"/>
+        <pin num="40" name="RC2" type="bidirectional"/>
+        <pin num="41" name="RC3" type="bidirectional"/>
+        <pin num="42" name="RD0" type="bidirectional"/>
+        <pin num="43" name="RD1" type="bidirectional"/>
+        <pin num="44" name="RD2" type="bidirectional"/>
+        <pin num="45" name="RD3" type="bidirectional"/>
+        <pin num="46" name="RC4" type="bidirectional"/>
+        <pin num="47" name="RC5" type="bidirectional"/>
+        <pin num="48" name="RC6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SP485CN-L" part="SP485CN-L">
+      <docs>SP485CN-L</docs>
+      <footprints>
+        <fp>NSOIC-8</fp>
+        <fp>NSOIC-8-M</fp>
+        <fp>NSOIC-8-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP485CN-L</field>
+        <field name="Footprint">NSOIC-8</field>
+        <field name="Datasheet">SP485CN-L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="*RE" type="output"/>
+        <pin num="3" name="DE" type="output"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x03">
+      <description>3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmx_components_library" part="E5J88-00LJG2-L">
+      <fields>
+        <field name="Reference">CON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+        <pin num="7" name="7" type="bidirectional"/>
+        <pin num="8" name="8" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MIC28517T-E-PHA">
+      <uri>C:\Users\C70636\Git Repo\pic16f56q71-dmx-light-show\PCBs\DMX Receiver/symbols/ul_MIC28517T-E-PHA/KiCADv6/2023-07-24_23-39-29.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PIC18F56Q71-I-PT">
+      <uri>C:\Users\C70636\Git Repo\pic16f56q71-dmx-light-show\PCBs\DMX Receiver/symbols/ul_PIC18F56Q71-I-PT/KiCADv6/2023-07-20_22-46-57.kicad_sym</uri>
+    </library>
+    <library logical="SP485CN-L">
+      <uri>C:\Users\C70636\Git Repo\pic16f56q71-dmx-light-show\PCBs\DMX Receiver/symbols/ul_SP485CN-L/KiCADv6/2023-07-20_22-17-03.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="dmx_components_library">
+      <uri>C:\Users\C70636\Git Repo\pic16f56q71-dmx-light-show\PCBs\DMX Receiver/dmx_components_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+48V">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="CON1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="CON1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="CON1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="CON2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="CON2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="CON2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="D+">
+      <node ref="CON1" pin="8" pinfunction="8" pintype="bidirectional"/>
+      <node ref="CON2" pin="8" pinfunction="8" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="D-">
+      <node ref="CON1" pin="7" pinfunction="7" pintype="bidirectional"/>
+      <node ref="CON2" pin="7" pinfunction="7" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="DMX DATA IN">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="RC1" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="6" name="DOUT">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="RA0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="FB">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="8" name="FLOAT">
+      <node ref="U1" pin="17" pinfunction="RB5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="CON1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="CON1" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="CON1" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="CON2" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="CON2" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="CON2" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RC7" pintype="bidirectional"/>
+      <node ref="U1" pin="10" pinfunction="RB2" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="RF4" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="RF5" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="RF6" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="RF7" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="RD4" pintype="bidirectional"/>
+      <node ref="U1" pin="22" pinfunction="RA1" pintype="bidirectional"/>
+      <node ref="U1" pin="23" pinfunction="RA2" pintype="bidirectional"/>
+      <node ref="U1" pin="24" pinfunction="RA3" pintype="bidirectional"/>
+      <node ref="U1" pin="25" pinfunction="RA4" pintype="bidirectional"/>
+      <node ref="U1" pin="26" pinfunction="RA5" pintype="bidirectional"/>
+      <node ref="U1" pin="27" pinfunction="RE0" pintype="bidirectional"/>
+      <node ref="U1" pin="28" pinfunction="RE1" pintype="bidirectional"/>
+      <node ref="U1" pin="29" pinfunction="RE2" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="RD5" pintype="bidirectional"/>
+      <node ref="U1" pin="31" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U1" pin="32" pinfunction="RA7" pintype="bidirectional"/>
+      <node ref="U1" pin="33" pinfunction="RA6" pintype="bidirectional"/>
+      <node ref="U1" pin="36" pinfunction="RF0" pintype="bidirectional"/>
+      <node ref="U1" pin="37" pinfunction="RF1" pintype="bidirectional"/>
+      <node ref="U1" pin="38" pinfunction="RF2" pintype="bidirectional"/>
+      <node ref="U1" pin="39" pinfunction="RF3" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="RD6" pintype="bidirectional"/>
+      <node ref="U1" pin="40" pinfunction="RC2" pintype="bidirectional"/>
+      <node ref="U1" pin="41" pinfunction="RC3" pintype="bidirectional"/>
+      <node ref="U1" pin="42" pinfunction="RD0" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="RC4" pintype="bidirectional"/>
+      <node ref="U1" pin="47" pinfunction="RC5" pintype="bidirectional"/>
+      <node ref="U1" pin="48" pinfunction="RC6" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="RD7" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U2" pin="16" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="17" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="18" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="19" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="22" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="23" pinfunction="EXTVDD" pintype="power_in"/>
+      <node ref="U2" pin="29" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="33" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="EP19" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="*RE" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="DE" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="DI" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="10" name="ICSPCLK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="RB6/ICSPCLK" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="ICSPDAT">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="RB7/ICSPDAT" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="ILIM">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="13" name="MCLR">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="RE3/*MCLR/VPP" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U1A-RB0)">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="RB0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(U1A-RB1)">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="RB1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(U1A-RB3)">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="RB3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(U1A-RB4)">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="RB4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(U1A-RC0)">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="RC0" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(U1A-RD1)">
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="RD1" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U1A-RD2)">
+      <node ref="SW1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="RD2" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U1A-RD3)">
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="RD3" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U2A-BST)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="BST" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(U2A-EN)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U2A-FREQ)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="FREQ" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U2A-PG)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="PG" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(U2B-AGND)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="AGND" pintype="power_out"/>
+    </net>
+    <net code="32" name="Net-(U2B-PVDD)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="PVDD" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(U2B-SVIN)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="SVIN" pintype="power_in"/>
+    </net>
+    <net code="34" name="SW">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="13" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="14" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="15" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="20" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="3" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="EP12" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="35" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="MODE" pintype="input"/>
+      <node ref="U2" pin="30" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="36" name="VIN">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="PVIN" pintype="power_in"/>
+      <node ref="U2" pin="EP5" pinfunction="PVIN" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

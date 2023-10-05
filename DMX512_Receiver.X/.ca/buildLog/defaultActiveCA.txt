@@ -1,0 +1,137 @@
+make -f nbproject/Makefile-defaultActiveCA.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+rm -f  -r .ca/build/defaultActiveCA/production
+rm -f  -r .ca/dist/defaultActiveCA/production
+make[1]: Leaving directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+[32mCLEAN SUCCESSFUL (total time: 205ms)[0m
+make -f nbproject/Makefile-defaultActiveCA.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+make  -f nbproject/Makefile-defaultActiveCA.mk .ca/dist/defaultActiveCA/production/DMX512_Receiver.X.production.hex
+make[2]: Entering directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/clc/src/clc1.p1 mcc_generated_files/clc/src/clc1.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/pwm/src/ccp1.p1 mcc_generated_files/pwm/src/ccp1.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/spi/src/spi1.p1 mcc_generated_files/spi/src/spi1.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.p1 mcc_generated_files/system/src/pins.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.p1 mcc_generated_files/system/src/system.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.p1 mcc_generated_files/system/src/config_bits.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.p1 mcc_generated_files/system/src/interrupt.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.p1 mcc_generated_files/system/src/clock.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/tmr2.p1 mcc_generated_files/timer/src/tmr2.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/uart/src/uart1.p1 mcc_generated_files/uart/src/uart1.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/mcc_generated_files/uart/src/uart2.p1 mcc_generated_files/uart/src/uart2.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/main.p1 main.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/spi_bare_metal.p1 spi_bare_metal.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/dmx.p1 dmx.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_defaultActiveCA=defaultActiveCA  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/defaultActiveCA/production/ws2812.p1 ws2812.c 
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=18F56Q71 -Wl,-Map=.ca/dist/defaultActiveCA/production/DMX512_Receiver.X.production.map  -DXPRJ_defaultActiveCA=defaultActiveCA  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto      -Wl,--memorysummary,.ca/dist/defaultActiveCA/production/memoryfile.xml -o .ca/dist/defaultActiveCA/production/DMX512_Receiver.X.production.elf  .ca/build/defaultActiveCA/production/mcc_generated_files/clc/src/clc1.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/pwm/src/ccp1.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/spi/src/spi1.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/tmr2.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/uart/src/uart1.p1 .ca/build/defaultActiveCA/production/mcc_generated_files/uart/src/uart2.p1 .ca/build/defaultActiveCA/production/main.p1 .ca/build/defaultActiveCA/production/dmx.p1 .ca/build/defaultActiveCA/production/spi_bare_metal.p1 .ca/build/defaultActiveCA/production/ws2812.p1     
+mcc_generated_files/uart/src/uart2.c:232:: advisory: (1510) non-reentrant function "_UART2_IsTxReady" appears in multiple call graphs and has been duplicated by the compiler
+mcc_generated_files/uart/src/uart2.c:272:: advisory: (1510) non-reentrant function "_UART2_Write" appears in multiple call graphs and has been duplicated by the compiler
+mcc_generated_files/uart/src/uart2.c:284:: advisory: (1510) non-reentrant function "_putch" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c:7:: advisory: (1510) non-reentrant function "___awdiv" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c:7:: advisory: (1510) non-reentrant function "___awmod" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c:5:: advisory: (1510) non-reentrant function "_printf" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c:152:: advisory: (1510) non-reentrant function "_pad" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c:470:: advisory: (1510) non-reentrant function "_dtoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c:955:: advisory: (1510) non-reentrant function "_xtoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c:1048:: advisory: (1510) non-reentrant function "_vfpfcnvrt" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c:1546:: advisory: (1510) non-reentrant function "_vfprintf" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c:1:: advisory: (1510) non-reentrant function "_abs" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c:8:: advisory: (1510) non-reentrant function "_fputc" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c:8:: advisory: (1510) non-reentrant function "_fputs" appears in multiple call graphs and has been duplicated by the compiler
+mcc_generated_files/clc/src/clc1.c:69:: warning: (520) function "_CLC1_OutputStatusGet" is never called
+mcc_generated_files/pwm/src/ccp1.c:67:: warning: (520) function "_PWM1_LoadDutyValue" is never called
+mcc_generated_files/pwm/src/ccp1.c:85:: warning: (520) function "_PWM1_OutputStatusGet" is never called
+mcc_generated_files/spi/src/spi1.c:85:: warning: (520) function "_SPI1_Open" is never called
+mcc_generated_files/spi/src/spi1.c:101:: warning: (520) function "_SPI1_Close" is never called
+mcc_generated_files/spi/src/spi1.c:106:: warning: (520) function "_SPI1_ByteExchange" is never called
+mcc_generated_files/spi/src/spi1.c:114:: warning: (520) function "_SPI1_BufferExchange" is never called
+mcc_generated_files/spi/src/spi1.c:127:: warning: (520) function "_SPI1_BufferWrite" is never called
+mcc_generated_files/spi/src/spi1.c:136:: warning: (520) function "_SPI1_BufferRead" is never called
+mcc_generated_files/spi/src/spi1.c:145:: warning: (520) function "_SPI1_ByteWrite" is never called
+mcc_generated_files/spi/src/spi1.c:150:: warning: (520) function "_SPI1_ByteRead" is never called
+mcc_generated_files/spi/src/spi1.c:155:: warning: (520) function "_SPI1_ExchangeByte" is never called
+mcc_generated_files/spi/src/spi1.c:160:: warning: (520) function "_SPI1_ExchangeBlock" is never called
+mcc_generated_files/spi/src/spi1.c:165:: warning: (520) function "_SPI1_WriteBlock" is never called
+mcc_generated_files/spi/src/spi1.c:170:: warning: (520) function "_SPI1_ReadBlock" is never called
+mcc_generated_files/spi/src/spi1.c:175:: warning: (520) function "_SPI1_WriteByte" is never called
+mcc_generated_files/spi/src/spi1.c:180:: warning: (520) function "_SPI1_ReadByte" is never called
+mcc_generated_files/timer/src/tmr2.c:80:: warning: (520) function "_TMR2_ModeSet" is never called
+mcc_generated_files/timer/src/tmr2.c:86:: warning: (520) function "_TMR2_ExtResetSourceSet" is never called
+mcc_generated_files/timer/src/tmr2.c:92:: warning: (520) function "_TMR2_Start" is never called
+mcc_generated_files/timer/src/tmr2.c:98:: warning: (520) function "_TMR2_Stop" is never called
+mcc_generated_files/timer/src/tmr2.c:104:: warning: (520) function "_TMR2_Read" is never called
+mcc_generated_files/timer/src/tmr2.c:111:: warning: (520) function "_TMR2_Write" is never called
+mcc_generated_files/timer/src/tmr2.c:117:: warning: (520) function "_TMR2_PeriodCountSet" is never called
+mcc_generated_files/timer/src/tmr2.c:131:: warning: (520) function "_TMR2_Tasks" is never called
+mcc_generated_files/uart/src/uart1.c:176:: warning: (520) function "_UART1_Deinitialize" is never called
+mcc_generated_files/uart/src/uart1.c:202:: warning: (2053) function "_UART1_Enable" is never called
+mcc_generated_files/uart/src/uart1.c:207:: warning: (2053) function "_UART1_Disable" is never called
+mcc_generated_files/uart/src/uart1.c:212:: warning: (2053) function "_UART1_TransmitEnable" is never called
+mcc_generated_files/uart/src/uart1.c:217:: warning: (2053) function "_UART1_TransmitDisable" is never called
+mcc_generated_files/uart/src/uart1.c:222:: warning: (2053) function "_UART1_ReceiveEnable" is never called
+mcc_generated_files/uart/src/uart1.c:227:: warning: (2053) function "_UART1_ReceiveDisable" is never called
+mcc_generated_files/uart/src/uart1.c:232:: warning: (2053) function "_UART1_SendBreakControlEnable" is never called
+mcc_generated_files/uart/src/uart1.c:237:: warning: (2053) function "_UART1_SendBreakControlDisable" is never called
+mcc_generated_files/uart/src/uart1.c:242:: warning: (2053) function "_UART1_AutoBaudSet" is never called
+mcc_generated_files/uart/src/uart1.c:255:: warning: (2053) function "_UART1_AutoBaudQuery" is never called
+mcc_generated_files/uart/src/uart1.c:260:: warning: (2053) function "_UART1_AutoBaudDetectCompleteReset" is never called
+mcc_generated_files/uart/src/uart1.c:265:: warning: (2053) function "_UART1_IsAutoBaudDetectOverflow" is never called
+mcc_generated_files/uart/src/uart1.c:270:: warning: (2053) function "_UART1_AutoBaudDetectOverflowReset" is never called
+mcc_generated_files/uart/src/uart1.c:275:: warning: (2053) function "_UART1_ErrorInterruptEnable" is never called
+mcc_generated_files/uart/src/uart1.c:280:: warning: (2053) function "_UART1_ErrorInterruptDisable" is never called
+mcc_generated_files/uart/src/uart1.c:285:: warning: (2053) function "_UART1_GeneralInterruptEnable" is never called
+mcc_generated_files/uart/src/uart1.c:290:: warning: (2053) function "_UART1_GeneralInterruptDisable" is never called
+mcc_generated_files/uart/src/uart1.c:295:: warning: (2053) function "_UART1_ReceiveInterruptEnable" is never called
+mcc_generated_files/uart/src/uart1.c:299:: warning: (2053) function "_UART1_ReceiveInterruptDisable" is never called
+mcc_generated_files/uart/src/uart1.c:304:: warning: (520) function "_UART1_IsRxReady" is never called
+mcc_generated_files/uart/src/uart1.c:309:: warning: (520) function "_UART1_IsTxReady" is never called
+mcc_generated_files/uart/src/uart1.c:314:: warning: (520) function "_UART1_IsTxDone" is never called
+mcc_generated_files/uart/src/uart1.c:319:: warning: (520) function "_UART1_ErrorGet" is never called
+mcc_generated_files/uart/src/uart1.c:326:: warning: (520) function "_UART1_Read" is never called
+mcc_generated_files/uart/src/uart1.c:393:: warning: (520) function "_UART1_Write" is never called
+mcc_generated_files/uart/src/uart1.c:489:: warning: (520) function "_UART1_ErrorCallbackRegister" is never called
+mcc_generated_files/uart/src/uart1.c:497:: warning: (520) function "_UART1_GeneralInterruptCallbackRegister" is never called
+mcc_generated_files/uart/src/uart1.c:505:: warning: (520) function "_UART1_RxCompleteCallbackRegister" is never called
+mcc_generated_files/uart/src/uart2.c:136:: warning: (520) function "_UART2_Deinitialize" is never called
+mcc_generated_files/uart/src/uart2.c:154:: warning: (2053) function "_UART2_Enable" is never called
+mcc_generated_files/uart/src/uart2.c:159:: warning: (2053) function "_UART2_Disable" is never called
+mcc_generated_files/uart/src/uart2.c:164:: warning: (2053) function "_UART2_TransmitEnable" is never called
+mcc_generated_files/uart/src/uart2.c:169:: warning: (2053) function "_UART2_TransmitDisable" is never called
+mcc_generated_files/uart/src/uart2.c:174:: warning: (2053) function "_UART2_ReceiveEnable" is never called
+mcc_generated_files/uart/src/uart2.c:179:: warning: (2053) function "_UART2_ReceiveDisable" is never called
+mcc_generated_files/uart/src/uart2.c:184:: warning: (2053) function "_UART2_SendBreakControlEnable" is never called
+mcc_generated_files/uart/src/uart2.c:189:: warning: (2053) function "_UART2_SendBreakControlDisable" is never called
+mcc_generated_files/uart/src/uart2.c:194:: warning: (2053) function "_UART2_AutoBaudSet" is never called
+mcc_generated_files/uart/src/uart2.c:207:: warning: (2053) function "_UART2_AutoBaudQuery" is never called
+mcc_generated_files/uart/src/uart2.c:212:: warning: (2053) function "_UART2_AutoBaudDetectCompleteReset" is never called
+mcc_generated_files/uart/src/uart2.c:217:: warning: (2053) function "_UART2_IsAutoBaudDetectOverflow" is never called
+mcc_generated_files/uart/src/uart2.c:222:: warning: (2053) function "_UART2_AutoBaudDetectOverflowReset" is never called
+mcc_generated_files/uart/src/uart2.c:227:: warning: (520) function "_UART2_IsRxReady" is never called
+mcc_generated_files/uart/src/uart2.c:237:: warning: (520) function "_UART2_IsTxDone" is never called
+mcc_generated_files/uart/src/uart2.c:242:: warning: (520) function "_UART2_ErrorGet" is never called
+mcc_generated_files/uart/src/uart2.c:266:: warning: (520) function "_UART2_Read" is never called
+mcc_generated_files/uart/src/uart2.c:278:: warning: (520) function "_getch" is never called
+dmx.c:7:: warning: (520) function "_UART1_Overflow" is never called
+dmx.c:12:: warning: (520) function "_UART1_FramingError" is never called
+dmx.c:20:: warning: (520) function "_UART1_RX_Complete" is never called
+dmx.c:41:: warning: (520) function "_DMX_Initialize" is never called
+spi_bare_metal.c:67:: warning: (520) function "_SPI1_sendByte" is never called
+ws2812.c:17:: warning: (520) function "_set_LED" is never called
+ws2812.c:51:: warning: (520) function "_bar_effect" is never called
+mcc_generated_files/uart/src/uart1.c:389:: warning: (1471) indirect function call via a NULL pointer ignored
+mcc_generated_files/uart/src/uart1.c:389:: warning: (759) expression generates no code
+mcc_generated_files/uart/src/uart1.c:426:: warning: (1471) indirect function call via a NULL pointer ignored
+mcc_generated_files/uart/src/uart1.c:426:: warning: (759) expression generates no code
+mcc_generated_files/uart/src/uart1.c:447:: warning: (1471) indirect function call via a NULL pointer ignored
+mcc_generated_files/uart/src/uart1.c:447:: warning: (759) expression generates no code
+
+Memory Summary:
+    Program space        used  1F1Dh (  7965) of 10000h bytes   ( 12.2%)
+    Data space           used   30Ch (   780) of  1000h bytes   ( 19.0%)
+    Configuration bits   used     5h (     5) of     6h words   ( 83.3%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    ID Location space    used    40h (    64) of    40h bytes   (100.0%)
+
+make[2]: Leaving directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+make[1]: Leaving directory 'C:/Users/C70636/Git Repo/dmx/DMX512_Receiver.X'
+[32mBUILD SUCCESSFUL (total time: 3s)[0m
