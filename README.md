@@ -47,11 +47,11 @@ To get the initial audio data, this project extracts bins of audio frequencies a
 ### DMX Data
 DMX512, or DMX for short, is an industry-standard protocol commonly used to control stage lighting and theatrical effects that enables centralized control of multiple devices from a single controller. Devices in a DMX network are daisy-chained together creating a "DMX universe". Within each universe, each node listens to the start code and specific data bytes out of the 512 bytes in each packet.
 
-![DMX Universe](https://github.com/jfcbooth/block_diagrams/blob/main/DMX_data.drawio.svg?raw=true)
+![DMX Universe](./images/DMX_data.svg)
 
 For this DMX light show, each node listens to 3 bytes and the start code. Depending on the start code, the nodes interpret their 3 bytes differently, giving DMX flexibility on the fly.
 
-![DMX Reactive](https://github.com/jfcbooth/block_diagrams/blob/main/reactive.drawio.svg?raw=true)
+![DMX Reactive](./images/reactive.svg)
 
  
 | Start Code | Mode | Byte 1 | Byte 2 | Byte 3 |
@@ -59,16 +59,10 @@ For this DMX light show, each node listens to 3 bytes and the start code. Depend
 | 2 | Reactive | G Led Data  | R Led Data | B Led Data |
 | 3 | Visualizer | # of Leds to Turn On | Color Change Threshold 1 | Color Change Threshold 2 |
 
- When `Start Code = 2`, each byte represents the entire tube's RGB data. So, for DMX receiver 1, when the data is as shown above `G = 255, R = 0, B = 0`, the tube looks like this:
+ When `Start Code = 2`, each byte represents the entire tube's RGB data. So, for DMX receiver 1, when the data is as shown above `G = 255, R = 0, B = 0`, the tube looks like the left-most picture. When `Start Code = 3`, the interpretation of the data changes as shown and the tube for receiver 1 change to the right-most picture.
+![DMX Visualizer](./images/visualizer.svg)
 
 ![Tube Shown Reactive](./images/mode2.png)
-
-When `Start Code = 3`, the interpretation of the data changes:
-![DMX Visualizer](https://github.com/jfcbooth/block_diagrams/blob/main/visualizer.drawio.svg?raw=true)
-
-The tube for receiver 1 will look like this:
-
-![Tube Shown Visualizer](./images/mode3.png)
 
 DMX provides the needed structure for fast and flexible data. The PIC18-Q71 compliments DMX by allowing the data's meaning to be changed based on I/O - toggling a switch changes the start code, and thus how the data is interpreted.
 
