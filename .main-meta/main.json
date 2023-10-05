@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f56q71-audio-light-show-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Audio Light Show",
         "projectName": "pic16f56q71-audio-light-show-mplab-mcc",
         "shortDescription": "An audio-reactive light show driven by the Q71's analog and DMX capabilities.",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.17.379"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.3.7"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,8 @@
             }
         },
         "author": "Josh Booth",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": ["OPAMP", "ADC", "ADCCC", "UART", "DMX", "SPI", "DMA", "CLC", "TMR0", "PWM", "TMR2"],
+        "keywords": ["Audio", "Analog", "Lighting", "Light", "WS2812/11"],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
