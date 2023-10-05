@@ -60,6 +60,7 @@ For this DMX light show, each node listens to 3 bytes and the start code. Depend
 | 3 | Visualizer | # of Leds to Turn On | Color Change Threshold 1 | Color Change Threshold 2 |
 
  When `Start Code = 2`, each byte represents the entire tube's RGB data. So, for DMX receiver 1, when the data is as shown above `G = 255, R = 0, B = 0`, the tube looks like the left-most picture. When `Start Code = 3`, the interpretation of the data changes as shown and the tube for receiver 1 change to the right-most picture.
+
 ![DMX Visualizer](./images/visualizer.svg)
 
 ![Tube Shown Reactive](./images/mode2.png)
@@ -79,6 +80,7 @@ To drive the WS2812 protocol, the microcontroller pulls a line high or low for d
 This requires an I/O line to be changed every 220ns, or at least 4.5 Million times per second requiring 4.5Mhz of processing power. This could create a processing bottleneck in time-sensitive applications. Alternatively, the PIC18-Q71's hardware SPI module can creatively drives the WS2812 protocol, so the MCU simply needs to load the SPI buffer with multiple data bytes instead of individually driving each bit.
 
 It does this by chaining the SPI module with the PWM and CLC CIPs to create a serial output exactly like the WS2812 protocol needs.
+
 ![WS2812 Implementation](./images/ws2812_implementation.png)
 
 ## Development Hardware Used
