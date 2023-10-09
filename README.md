@@ -84,7 +84,17 @@ To drive the WS2812 protocol, the microcontroller pulls a line high or low for d
 
 This requires an I/O line to be changed every 220 ns or at least 4.5 million times per second requiring 4.5 Mhz of processing power. This could create a processing bottleneck in time-sensitive applications. Alternatively, the SPI module of the PIC18-Q71 device family can creatively drive the WS2812 protocol in hardware, so that the MCU simply needs to load the SPI buffer with multiple data bytes instead of individually driving each bit. This is done by chaining the SPI module with the PWM and Configurable Logic Cell (CLC) CIPs to create the serial output needed by the WS2812 protocol.
 
-![WS2812 Implementation](./images/ws2812_implementation.png)
+![WS2812 1 Implementation](./images/ws2812_1.png)
+
+*SPI + PWM + CLC Waveform*
+
+![WS2812 2 Implementation](./images/ws2812_2.png)
+
+Implementation with CLC's - Generating 0's
+
+![WS2812 3 Implementation](./images/ws2812_3.png)
+
+Implementation with CLC's - Generating 1's
 
 ## Development Hardware Used
 
