@@ -40,7 +40,14 @@ This demo can be broken up into three portions:
 The distinguishing feature of this project is nearly all of this demo operates without the CPU, and instead using CIPs and the DMA. The CPU's sole task is to run the manually programmed visual effects that convert the acquired frequency data into LED data.
 
 ### Audio Signal Processing
-To obtain the initial audio data, this project extracts bins of audio frequencies and performs peak detection on each bin giving a value corresponding to the intensity of the audio frequency. Each peak is then visually represented on a different LED tube. To extract and acquire these audio frequency bins, analog bandpass filters with an ADC can be used for each desired frequency. Alternatively, an MSGEQ7 chip was used to reduce the number of needed passive components. This chip functions as a bandpass filter, multiplexing between frequencies. The PIC18-Q71 drives the chip to change where the center frequency is and then uses its on-board ADC to sample the peak. The PIC18-Q71's OPA is used in Unity Gain mode to impedance match the output, then the ADC is used to acquire the output peak.
+To obtain the initial audio data, this project extracts bins of audio frequencies and performs peak detection on each bin giving a value corresponding to the intensity of the audio frequency. Each peak is then visually represented on a different LED tube.
+
+![Frequency peaks](./images/msgeq7.png)
+Source: [MSGEQ7 datasheet](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf)
+
+To extract and acquire these audio frequency bins, analog bandpass filters with an ADC can be used for each desired frequency. Alternatively, an MSGEQ7 chip was used to reduce the number of needed passive components. This chip functions as a bandpass filter, multiplexing between frequencies. The PIC18-Q71 drives the chip to change where the center frequency is and then uses its on-board ADC to sample the peak. The PIC18-Q71's OPA is used in Unity Gain mode to impedance match the output, then the ADC is used to acquire the output peak.
+
+By using the OPA un Unity Gain mode, a buffer is created that ensures the ADC can read the analog signal without affecting it. If the input from the filters is of high impedance, the ADC may not read the result accurately. By using the OPA as a buffer, this ensures the ADC can always read the signal accurately and without affecting the original signal.
 
 ### DMX Data
 DMX512, or DMX for short, is an industry-standard protocol commonly used to control stage lighting and theatrical effects, centralized control of multiple devices from a single controller. Devices in a DMX network are daisy-chained together creating a "DMX universe". Within each universe, each node listens to the start code and specific data bytes out of the 512 bytes in each packet.
@@ -68,7 +75,7 @@ DMX provides the needed structure for fast and flexible data. The PIC18-Q71 comp
 ### Driving the WS2812 LEDs
 After the DMX data has been received, the WS2812 LEDs change to reflect the incoming data. WS2812 LEDs are programmable through a 1-Wire protocol. The LEDs are daisy-chained together, similar to the DMX protocol, but each LED receives all the data, strips off its portion, and sends the data onward. The data for each LED consists of one byte for G, R, and B data respectively (for a total of three bytes).
 
-![WS2812](https://github.com/jfcbooth/block_diagrams/blob/main/ws2812_data.drawio.svg?raw=true)
+![WS2812](./images/ws2812_data.svg)
 
 
 To drive the WS2812 protocol, the microcontroller pulls a line high or low for different amounts of time:
