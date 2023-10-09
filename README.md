@@ -2,7 +2,7 @@
 
 # Audio Light Show Using PIC18-Q71
 
-This project shows the functionality behind a real-time audio processing light show built extremely efficiently on a PIC18-Q71 microcontroller. 90% of the functionality runs on the MCU without engaging the CPU through the use of various Core-Independent Peripherals (CIPs).
+This project shows the functionality behind a real-time audio processing light show built extremely efficiently on a PIC18-Q71 microcontroller (MCU). 90% of the functionality runs on the MCU without engaging the CPU through the use of various Core-Independent Peripherals (CIPs).
 
 The PIC18-Q71 on-chip analog, consisting of the Operational Amplifier ([OPA](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/integrated-analog/operational-amplifier)) and Analog-to-Digital Converter ([ADC](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/integrated-analog/analog-to-digital-converter)) modules, measure the incoming analog frequencies and use Direct Memory Access ([DMA](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/system-flexibility/direct-memory-access)) to transfer the readings into the Universal Asynchronous Receiver and Transmitter ([UART](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/communication-connectivity-peripherals/uart-peripherals))/[DMX512](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/communication-connectivity-peripherals/uart-peripherals) module to transmit to the receivers. Each receiver also uses a PIC18-Q71 to receive the DMX data and then appropriately drives WS2812 LEDs through its Serial Peripherals Interface ([SPI](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/core-independent-and-analog-peripherals/communication-connectivity-peripherals/spi-peripherals)) module. The receivers are daisy-chained through ethernet cables that transfer both data and power.
 
@@ -20,8 +20,8 @@ The first image below displays seven receviers responding to music, while the ot
 
 ## Software Used
 
-- [MPLAB® X IDE 6.1.](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_MPAE_Examples&utm_content=pic16f56q71-dmx-light-show-github) or newer
-- [MPLAB XC8 2.41.0](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_MPAE_Examples&utm_content=pic16f56q71-dmx-light-show-github) or newer
+- [MPLAB® X IDE 6.1.5](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_MPAE_Examples&utm_content=pic16f56q71-dmx-light-show-github) or newer
+- [MPLAB XC8 2.45.0](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_MPAE_Examples&utm_content=pic16f56q71-dmx-light-show-github) or newer
 - [MPLAB Code Configurator (MCC) 3.95.0](https://www.microchip.com/mplab/mplab-code-configurator) or newer
 
 ## Setup
@@ -43,14 +43,14 @@ The distinguishing feature of this project is nearly all of this demo operates w
 To obtain the initial audio data, this project extracts bins of audio frequencies and performs peak detection on each bin giving a value corresponding to the intensity of the audio frequency. Each peak is then visually represented on a different LED tube.
 
 ![Frequency peaks](./images/msgeq7.png)
-Source: [MSGEQ7 datasheet](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf)
+Source: [MSGEQ7 data sheet](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf)
 
-To extract and acquire these audio frequency bins, analog bandpass filters with an ADC can be used for each desired frequency. Alternatively, an MSGEQ7 chip was used to reduce the number of needed passive components. This chip functions as a bandpass filter, multiplexing between frequencies. The PIC18-Q71 drives the chip to change where the center frequency is and then uses its on-board ADC to sample the peak. The PIC18-Q71's OPA is used in Unity Gain mode to impedance match the output, then the ADC is used to acquire the output peak.
+To extract and acquire these audio frequency bins, analog bandpass filters with an ADC can be used for each desired frequency. Alternatively, an MSGEQ7 chip was used to reduce the number of needed passive components. This chip functions as a bandpass filter, multiplexing between frequencies. The PIC18-Q71 drives the chip to change where the center frequency is and then uses its on-board ADC to sample the peak. The PIC18-Q71's OPA is used in Unity Gain mode to impedance match the output, then the ADC with computation is used to acquire the output peak.
 
-By using the OPA un Unity Gain mode, a buffer is created that ensures the ADC can read the analog signal without affecting it. If the input from the filters is of high impedance, the ADC may not read the result accurately. By using the OPA as a buffer, this ensures the ADC can always read the signal accurately and without affecting the original signal.
+By using the OPA in Unity Gain mode, a buffer is created that ensures the ADC can read the analog signal without affecting it. If the input from the filters is of high impedance, the ADC may not read the result accurately. By using the OPA as a buffer, this ensures the ADC can always read the signal accurately and without affecting the original signal. Also, the ADC has built-in computation that provides an automatic average of readings to eliminate potential outliers, providing a more accurate reading.
 
 ### DMX Data
-DMX512, or DMX for short, is an industry-standard protocol commonly used to control stage lighting and theatrical effects, centralized control of multiple devices from a single controller. Devices in a DMX network are daisy-chained together creating a "DMX universe". Within each universe, each node listens to the start code and specific data bytes out of the 512 bytes in each packet.
+DMX512, or DMX for short, is an industry-standard protocol commonly used to control stage lighting and theatrical effects, providing centralized control of multiple devices from a single controller. Devices in a DMX network are daisy-chained together creating a "DMX universe". Within each universe, each node listens to the start code and specific data bytes out of the 512 bytes in each packet.
 
 ![DMX Universe](./images/DMX_data.svg)
 
@@ -82,7 +82,7 @@ To drive the WS2812 protocol, the microcontroller pulls a line high or low for d
 
 ![WS2812 Timing](./images/ws2812.png)
 
-This requires an I/O line to be changed every 220 ns or at least 4.5 million times per second requiring 4.5 Mhz of processing power. This could create a processing bottleneck in time-sensitive applications. Alternatively, the PIC18-Q71's hardware SPI module can creatively drive the WS2812 protocol, so that the MCU simply needs to load the SPI buffer with multiple data bytes instead of individually driving each bit. This is done by chaining the SPI module with the PWM and Configurable Logic Cell (CLC) CIPs to create the serial output needed by the WS2812 protocol.
+This requires an I/O line to be changed every 220 ns or at least 4.5 million times per second requiring 4.5 Mhz of processing power. This could create a processing bottleneck in time-sensitive applications. Alternatively, the SPI module of the PIC18-Q71 device family can creatively drive the WS2812 protocol in hardware, so that the MCU simply needs to load the SPI buffer with multiple data bytes instead of individually driving each bit. This is done by chaining the SPI module with the PWM and Configurable Logic Cell (CLC) CIPs to create the serial output needed by the WS2812 protocol.
 
 ![WS2812 Implementation](./images/ws2812_implementation.png)
 
@@ -94,7 +94,7 @@ This project was first set up using [Curiosity Development boards](https://www.m
 
 - PIC18F56Q71 Curiosity Nano ([EV01G21A](https://www.microchip.com/en-us/development-tool/EV01G21A))
 - Curiosity Nano Base for Click Boards™ ([AC164162](https://www.microchip.com/en-us/development-tool/ac164162))
-- [MSGEQ7](https://www.sparkfun.com/products/10468)
+- [MSGEQ7 Graphic Equalizer Display Filter](https://www.sparkfun.com/products/10468)
 - [WS2812 LED Strip](https://www.amazon.com/BTF-LIGHTING-Waterproof-Flexible-Individually-Addressable/dp/B01CDTEEZ2/)
 
 ![Prototype Hardware](./images/prototype.png)
@@ -108,7 +108,7 @@ The final design was built on PCBs that encoded the DMX signal per the DMX speci
 - [MPLAB PICkit™ 5 In-Circuit Debugger](https://www.microchip.com/en-us/development-tool/pg164150)
 
 ### The Transmitter
-The transmitter was built on a custom 4-layer PCB. All parts used are in the [Transmitter Bill of Materials](./PCBs/DMX%20Transmitter/dmxTxBOM.csv) in the repo as well as the [files to have the boards manufactured](./PCBs/DMX%20Transmitter/dmxTx-Outputs.zip). Similar to the prototype hardware, the audio signal comes in and the PIC18-Q71 processes it and sends out the DMX data, but this time, it does so on an Ethernet cable. As noted above, passive PoE was implemented so a 48V power source is used and a MIC28517 buck converter steps down the voltage to the MCU's required five volts.
+The transmitter was built on a custom 4-layer PCB. All parts used are in the [Transmitter Bill of Materials](./PCBs/DMX%20Transmitter/dmxTxBOM.csv) in this repository, as well as all of the corresponding [files needed to have the boards manufactured](./PCBs/DMX%20Transmitter/dmxTx-Outputs.zip). Similar to the prototype hardware, the audio signal comes in and the PIC18-Q71 processes it and sends out the DMX data, but this time, it does so on an Ethernet cable. As noted above, passive PoE was implemented so a 48V power source is used and a MIC28517 buck converter steps down the voltage to the MCU's required five volts.
 
 ![TX Board Unpopulated](./images/tx_board.png)
 
@@ -116,16 +116,20 @@ The transmitter was built on a custom 4-layer PCB. All parts used are in the [Tr
 
 Notable parts in each of the section of the board:
 
-**Analog In:** The [MSGEQ7](https://www.sparkfun.com/products/10468) extracts the amplitudes of seven frequency bands from an audio signal to be displayed.
+## Analog In
+ The [MSGEQ7](https://www.sparkfun.com/products/10468) extracts the amplitudes of seven frequency bands from an audio signal to be displayed.
 
-**PIC18-Q71:** The [PIC18-Q71](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic18-q71) drives and reads the MSGEQ7 output by first matching the analog impedance using its on-chip OPA as a unity gain buffer, then sampling the signal using its ADC. It then sends out lighting data to each of the receiver nodes over DMX.
+## PIC18-Q71
+The [PIC18-Q71](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic18-q71) drives and reads the MSGEQ7 output by first matching the analog impedance using its on-chip OPA as a unity gain buffer, then sampling the signal using its ADC. It then sends out lighting data to each of the receiver nodes over DMX.
 
-**48 to 5V:** The [MIC28517](https://www.microchip.com/en-us/product/mic28517) was chosen since it can handle the 48V requirements of PoE while providing up to 8A. Each receiver node needs up to 1.5A for the WS2812 LEDs, so this chip gives us plenty of overhead.
+## 48 to 5V
+The [MIC28517](https://www.microchip.com/en-us/product/mic28517) was chosen since it can handle the 48V requirements of PoE while providing up to 8A. Each receiver node needs up to 1.5A for the WS2812 LEDs, so this chip gives us plenty of overhead.
 
-**SP485:** This chip converts the outgoing DMX signal into a differential pair (RS-485) for increased signal distance (U3 on schematic).
+## SP485
+This chip converts the outgoing DMX signal into a differential pair (RS-485) for increased signal distance (U3 on schematic).
 
 ### The Receivers
-The receiver [Bill of Materials](./PCBs/DMX%20Receiver/dmxRx.csv) and [board files](./PCBs/DMX%20Receiver/dmxRx-v2Outputs.zip) are included in the repo above. The receivers function the same as in the prototype, but have Ethernet connectors on either side pass through the power and DMX signals to continue the daisy chain. The PIC18-Q71 on each receiver takes the DMX data in and then appropriately drives the WS2812 LEDs using its CIPs. Each receiver is programmed using a PICkit™ 5 programmer, as opposed to the on-board PKOB programmer on the Curiosity Nanos used during development.
+The receiver [Bill of Materials](./PCBs/DMX%20Receiver/dmxRx.csv) and [board files](./PCBs/DMX%20Receiver/dmxRx-v2Outputs.zip) are included in this repository. The receivers function the same as in the prototype, but have Ethernet connectors on either side pass through the power and DMX signals to continue the daisy chain. The PIC18-Q71 on each receiver takes the DMX data in and then appropriately drives the WS2812 LEDs using its CIPs. Each receiver is programmed using a PICkit™ 5 programmer, as opposed to the on-board PKOB programmer on the Curiosity Nanos used during development.
 
 ![RX Board Unpopulated](./images/rx_board.png)
 ![RX Board Populated](./images/rx_pcb.png)

@@ -10,12 +10,12 @@
         "shortDescription": "An audio-reactive light show driven by the Q71's analog and DMX capabilities.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=6.1.0"
+            "semverRange": ">=6.1.5"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.41.0"
+                "semverRange": "^2.45.0"
             }
         ],
         "dfp": {
