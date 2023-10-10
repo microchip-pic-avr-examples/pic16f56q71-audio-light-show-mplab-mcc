@@ -43,6 +43,7 @@ The distinguishing feature of this project is nearly all of this demo operates w
 To obtain the initial audio data, this project extracts bins of audio frequencies and performs peak detection on each bin giving a value corresponding to the intensity of the audio frequency. Each peak is then visually represented on a different LED tube.
 
 ![Frequency peaks](./images/msgeq7.png)
+
 Source: [MSGEQ7 data sheet](https://www.sparkfun.com/datasheets/Components/General/MSGEQ7.pdf)
 
 To extract and acquire these audio frequency bins, analog bandpass filters with an ADC can be used for each desired frequency. Alternatively, an MSGEQ7 chip was used to reduce the number of needed passive components. This chip functions as a bandpass filter, multiplexing between frequencies. The PIC18-Q71 drives the chip to change where the center frequency is and then uses its on-board ADC to sample the peak. The PIC18-Q71's OPA is used in Unity Gain mode to impedance match the output, then the ADC with computation is used to acquire the output peak.
